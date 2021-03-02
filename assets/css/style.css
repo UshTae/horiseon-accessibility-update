@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,10 +42,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 /* hero banner */
 .hero-image {
     height: 800px;
@@ -57,6 +49,15 @@ p {
     margin-bottom: 25px;
     object-fit: cover;
 
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
