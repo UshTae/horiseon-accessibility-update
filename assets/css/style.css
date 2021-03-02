@@ -16,10 +16,11 @@ header h1 {
     font-size: 48px;
 }
 
+/* this changes the color of seo in 'horiseon' */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+ 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,15 +29,21 @@ header nav {
     font-size: 20px;
 }
 
+/* specifying there is no list item marker  */
 header nav ul {
     list-style-type: none;
 }
 
+/* placing nav bar to right of header  */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 /* hero banner */
 .hero-image {
@@ -51,24 +58,22 @@ body {
     background-color: #d9dcd6;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 p {
     font-size: 16px;
 }
 
+/* this positions the first and second article pictures left  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* this positions the 'online reputation management picture right  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 
 main {
     width: 75%;
@@ -76,6 +81,7 @@ main {
     margin-left: 20px;
 }
 
+/* 'benefit' aside on right of page  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,6 +108,7 @@ main {
     color: #ffffff;
 }
 
+/* aside headings  */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -117,6 +124,7 @@ main {
     text-align: center;
 }
 
+/* aside images */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -135,6 +143,7 @@ main {
     max-width: 150px;
 }
 
+/* articles in main section of page, each in seperate boxes */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,6 +171,7 @@ main {
     color: #ffffff;
 }
 
+/* article sections images */
 #search-engine-optimization img {
     max-height: 200px;
 }
@@ -174,6 +184,7 @@ main {
     max-height: 200px;
 }
 
+/* article section headers */
 #search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -189,6 +200,7 @@ main {
     font-size: 36px;
 }
 
+/* footer section at bottom of page */
 footer {
     padding: 30px;
     clear: both;
