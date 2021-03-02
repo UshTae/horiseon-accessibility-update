@@ -7,8 +7,7 @@
 - [**Goals**](#goals)
 - [Improving accessibility](#improving-accessibility)
 - [Mock up](#mock-up)
-- [Applications](#applications)
-- [Acknowledgments](#acknowledgements)
+- [Application Link](#application-link)
 
 
 ## Goals
@@ -47,10 +46,5 @@ The following image shows the application's appearance and functionality.
 
 >**Note:** All changes made in the HTML and CSS of the application hasn't affected the appearence, only the accessibility. 
 
-## Applications
-
-This website was edited using HTML and CSS on VS code. 
-
-
-## Acknowledgements
-
+## Application link
+Link to the Horison deployed website: https://subwayaintfresh.github.io/horiseon-accessibility-update/
