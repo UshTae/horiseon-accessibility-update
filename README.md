@@ -1,12 +1,8 @@
-# Horiseon accessibility update [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20cool%20project&url=https://github.com/Cool/Project&hashtags=project,opensource)
-
-![Github License](https://img.shields.io/badge/license-MIT-green)
-![Code Coverage](https://img.shields.io/badge/coverage-90%25-green)
-![React Version](https://img.shields.io/badge/react-v16.12.0-blue.svg)
+# Horiseon accessibility update
 
 ![example](https://mdn.mozillademos.org/files/10529/inspector.png)
 
-#### Description of your project
+#### Updating the code base of the Horiseon marketing agency webpage, to follow accessibility standards so that the site is optimised for search engines.
 
 ## Table of content
 
