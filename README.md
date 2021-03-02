@@ -1,61 +1,52 @@
 # Horiseon accessibility update
 
-![example](https://mdn.mozillademos.org/files/10529/inspector.png)
-
-#### Updating the code base of the Horiseon marketing agency webpage, to follow accessibility standards so that the site is optimised for search engines.
+>This was created to update the code base of the Horiseon marketing agency webpage to follow accessibility standards so that the site is optimised for search engines.
 
 ## Table of content
 
-- [**Getting Started**](#getting-started)
-- [Built With](#built-with)
-- [Contributing](#contributing)
-- [License](#license)
-- [Get Help](#get-help)
-- [Motivation](#motivation)
+- [**Goals**](#goals)
+- [Improving accessibility](#improving-accessibility)
+- [Mock up](#mock-up)
+- [Applications](#applications)
 - [Acknowledgments](#acknowledgements)
 
-## Getting Started
-Describe how to get started here.
 
-### Install
-```console
-npm install your-project
-```
+## Goals
+The Marketing agencys goal of achieveing an accessible website meant having to meet certain criteria. These are as follow:
+- The source code contain semantic HTML elements.
+- The structure of the HTML elements follw a logical structure (indepent of styling and positioning).
+- The image elements contain accessible alt attributes.
+- The heading attributes fall in sequential order.
+- The title element has a concise and descriptive title.
 
-### Usage
-Describe how you use it here.
-```javascript
-import { configure, useProject } from 'your-project';
+## Improving accessibility
+As seen in the goals, for this site to meet the accessibility standards semantic code had to be implemented where it was missing. 
 
-configure();
+    <div id="search-engine-optimization">
+        <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+        <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+    </div>
 
-const App = () => {
-  const [project, setProject] = useProject();
-  // ... More pseudo code here...
-}
-```
-## Built With
+Code such as the above lacked semantic code to easily indicate what was the code meant, aswell as accessible alt attributes in the images. To fix this, semantic tags like < article > replaced div tags,
 
-Explain which technologies you've used here.
+        <article id="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="journal on table with seo brainstorm" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </article>
+making it easier for the code to be read, therefore helping with future maintainence. 
 
-## Contributing
 
-#### Issues
-In the case of a bug report, bugfix or a suggestions, please feel very free to open an issue.
 
-#### Pull request
-Pull requests are always welcome, and I'll do my best to do reviews as fast as I can.
+## Applications
 
-## License
+This website was edited using HTML and CSS on VS code. 
 
-This project is licensed under the [MIT License](https://github.com/this/project/blob/master/LICENSE)
-
-## Get Help
-- Contact me on my-email@email.com
-- If appropriate, [open an issue](https://github.com/this/project/issues) on GitHub
-
-## Motivation
-Describe your motivation for creating this Open-Source Project
 
 ## Acknowledgements
 Acknowledge the Open-Source projects that you've included in your solution.
