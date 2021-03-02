@@ -41,7 +41,11 @@ Code such as the above lacked semantic code to easily indicate what was the code
         </article>
 making it easier for the code to be read, therefore helping with future maintainence. 
 
+## Mock up
+The following image shows the application's appearance and functionality.
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](assets\subwayaintfresh.github.io_Homework-week-1_.png)
 
+>**Note:** All changes made in the HTML and CSS of the application hasn't affected the appearence, only the accessibility. 
 
 ## Applications
 
@@ -49,6 +53,4 @@ This website was edited using HTML and CSS on VS code.
 
 
 ## Acknowledgements
-Acknowledge the Open-Source projects that you've included in your solution.
 
-See this template in use on the Open-Source project [Hue Debugger UI](https://github.com/Silind-Software/Hue-Debugger-UI)
