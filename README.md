@@ -42,7 +42,7 @@ making it easier for the code to be read, therefore helping with future maintain
 
 ## Mock up
 The following image shows the application's appearance and functionality.
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](https://github.com/[subwayaintfresh]/[horiseon-accessibility-update]/blob/[assets]/subwayaintfresh.github.io_Homework-week-1_.png?raw=true)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](https://github.com/subwayaintfresh/horiseon-accessibility-update/blob/master/assets/images/subwayaintfresh.github.io_Homework-week-1_.png)
 
 >**Note:** All changes made in the HTML and CSS of the application hasn't affected the appearence, only the accessibility. 
 
